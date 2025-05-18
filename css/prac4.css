@@ -1,0 +1,29 @@
+#box{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+#circle1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red ;
+}
+#circle2 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow ;
+}
+#circle3 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: green ;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="blue">
+        <caption> Food Menu</caption>
+          <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+            </tr> 
+            <tr>
+                <th>ind</th>
+                <th>usd</th>
+          </tr>
+          <tr>
+            <td>Frooti</td>
+            <td>20</td>
+            <td>1.2</td>
+          </tr>
+          <tr>
+            <td>Pasta</td>
+            <td>60</td>
+            <td>2.3</td>
+          </tr>
+          <tr>
+            <td>Chips</td>
+            <td>10</td>
+            <td>1.6</td>
+          </tr>
+    </table>
+    <br>
+    <form action="/action">
+        <label for="Username">Username :
+           <input type="text" id="Username" placeholder="Enter Name" name="username">
+        </label>
+        <br>
+        password
+        <input type="password">
+        <br>
+        Age
+        <input type="number">
+        <br>
+        time
+        <input type="time">
+        <br>
+        color
+        <input type="color">
+        <br> 
+        <button type="submit">submit</button>
+        <button type="menu">menu</button>
+        <button type="reset">reset</button>
+        <input type="button" value="click me">
+        <input type="reset" value="reset">
+        <hr>
+    </form>
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="search in youtube"
+            name="search_query">
+            <button>results</button>
+        </form>
+            <form action="/act">
+             <div>
+                <input type="radio" name="fruit" id="apple" value="apple">
+                <label for="apple">apple</label>
+                <input type="radio" name="fruit" id="mango" value="mango">
+                <label for="mango">mango</label>
+                <input type="radio" name="fruit" id="banana" value="banana">
+                <label for="banana">banana</label>
+                <input type="radio" name="fruit" id="strawberry" value="strawberry">
+                <label for="strawberry">strawberry</label>
+                <button>results</button>
+             </div>
+        
+        </form>
+        <form action="/checkbox">
+            <input type="checkbox" name="subject" id="math" value="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="subject" id="english" value="eng">
+            <label for="english">english</label>
+            <button>submit</button>
+
+        </form>
+        <form action="/select">
+            <select name="profession" id="profession">
+                <option value="student">student</option>
+                <option value="dev">developer</option>
+                <option value="sft eng">software engineer</option>
+                <option value="doc">doctor</option>
+                <button>submit</button>
+                <div>
+                    <label for="vol">select your volume :</label>
+                    <input type="range" id="vol" min="0" max="100" name="vol" step="10">
+                    <button>select</button>
+                </div>
+                <div>
+                    <label for="feedback">Please give your valueable feedback</label>
+                    <textarea name="feedback" id="feedback" rows="5" cols="7" ></textarea>
+                    <button>submit</button>
+                </div>
+        </form>
+
+</body>
+</html>

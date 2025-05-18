@@ -1,0 +1,41 @@
+
+ 
+#circle{
+    height:400px;
+    width:400px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius:50% ;
+    
+}
+#mouth{
+    height: 75px;
+    width: 205px;
+    background-color: brown;
+    border-radius:0 0 20px 20px ;
+    position:absolute ;
+    top: 250px;
+    left: 100px;
+}
+#eyes1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute ;
+    left: 100px;
+    top: 100px;
+
+}
+#eyes2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+
+}

@@ -1,0 +1,87 @@
+.post{
+    background-color: rgb(241, 186, 116) !important;
+}
+*{
+    font-family: 'Courier New';
+    background-color: rgb(244, 247, 247);
+}
+h1 , h3{
+    color: #b92b27;
+}
+#login{
+    background-color: rgb(172, 88, 72);
+}
+#signup{
+    background-color: #b92b27;
+    color: aliceblue;
+}
+.upvote{
+    color: white;
+    background-color: #824d4b;
+}
+.post a {
+    color: rgb(255, 255, 255);
+    background-color: #40a4ec;
+    border: 2px solid black ;
+}
+.post a:hover{
+    background-color: rgb(171, 209, 235);
+    color: #000000;
+}
+nav ul li a{
+    color: rgb(255, 251, 251);
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: rgb(207, 102, 102);
+}
+p + h3:hover{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: rgb(161, 80, 80);
+}
+div > input {
+    background-color: rgb(52, 190, 236);
+    color: antiquewhite;
+}
+input[type ="password"]
+{
+    color: green;
+
+}
+input[type="text"]{
+    color: blue;
+}
+button:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
+button:active{
+    background-color: hotpink;
+}
+p:active{
+  font-weight: bold;
+  color: chartreuse;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2){
+    background-color: #d5524d;
+}
+h1::first-letter{
+    color:rgb(119, 25, 6);
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+p a:hover  {
+   text-decoration: underline;
+}

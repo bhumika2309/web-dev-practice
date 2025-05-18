@@ -1,0 +1,39 @@
+body{
+    background-color: wheat;
+}
+p{
+    color: brown;
+    text-align: center;
+    font-family: georgia;
+    line-height: 30px;
+    text-decoration: underline ozymandis;
+}
+h1{
+  text-align: center;
+   font-family: georgia; 
+   color: red;
+}
+h3{
+    text-align: center;
+    color: black;
+    font-family: georgia;
+}
+h4{
+    text-align: center;
+    font-family: georgia;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+textarea{
+    color: #000000;
+}
+button{
+    background-color: aliceblue;
+    color: blueviolet;
+
+}
+span{
+    text-decoration: underline ;
+}
